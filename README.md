@@ -45,8 +45,6 @@ class MainWindow(QMainWindow):
         url = self.url_bar.text()
         self.browser.setUrl(QUrl(url))
 
-    #def update_url(self, url):
-        #self.url_bar.setText(url.tostring())
 
 
 app = QApplication(sys.argv)
